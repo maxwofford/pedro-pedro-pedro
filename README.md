@@ -1,1 +1,1 @@
-![raccoon dancing](https://cloud-3k64f9t2q-hack-club-bot.vercel.app/0pedro-gif-ezgif.com-video-to-gif-converter.gif)
+![raccoon dancing](https://github.com/maxwofford/pedro-pedro-pedro/assets/5891442/6f001c88-79f1-4dcc-a758-46c40d51cbb4)

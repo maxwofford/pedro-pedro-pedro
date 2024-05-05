@@ -1,8 +1,20 @@
-<img src="https://cloud-20foaci3h-hack-club-bot.vercel.app/0pedro_loop.gif" id="raccoon" />
+<img src="" id="raccoon" />
 
-<audio controls loop>
+<audio controls loop id="controls">
   <source src="https://cloud-fid6x5093-hack-club-bot.vercel.app/0snaptik.app_7348832886948105490_audio.mp4">
 </audio>
+<script>
+  const startGif = "https://cloud-lsrgvvb4b-hack-club-bot.vercel.app/0intro_pedro-ezgif.com-crop__1_.gif"
+  const loopGif = "https://cloud-20foaci3h-hack-club-bot.vercel.app/0pedro_loop.gif"
+  controls.addEventListener("play", () => {
+    setTimeout(() => {
+      raccoon.src = startGif
+    }, 1000)
+    setTimeout(() => {
+      raccoon.src = loopGif
+    }, 5000)
+  })
+</script>
 
 <style>
   html {
@@ -25,6 +37,8 @@
     animation: 5s linear infinite spin;
     /* position: absolute; */
     height: 50vw;
+    width: 50vw;
     border-radius: 100%;
+    background-color: white;
   }
 </style>
